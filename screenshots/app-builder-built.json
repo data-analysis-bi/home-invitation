@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Griha Pravesh · The Patel Family",
+      "hasCanvas": false,
+      "bodyTextLen": 624,
+      "bodyTextHash": "407240dd67b2f3ddb80d4333c7cd988961299485ea2f9ee00afc77b748586e04",
+      "bodyTextPrefix": "please join us for a Griha Pravesh & HOUSE BLESSING CEREMONY As ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Griha Pravesh · The Patel Family",
+      "hasCanvas": false,
+      "bodyTextLen": 624,
+      "bodyTextHash": "407240dd67b2f3ddb80d4333c7cd988961299485ea2f9ee00afc77b748586e04",
+      "bodyTextPrefix": "please join us for a Griha Pravesh & HOUSE BLESSING CEREMONY As ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}
