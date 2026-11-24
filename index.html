@@ -6,7 +6,7 @@
     <title>Griha Pravesh · The Patel Family</title>
     <meta
       name="description"
-      content="Please join the Patel family for Griha Pravesh, a house blessing ceremony on Friday, May 25, 2026 at 10:45 AM. 1234 Lotus Grove Lane, Frisco, Texas."
+      content="Please join the Patel family for Griha Pravesh, a house blessing ceremony on Friday, May 25, 2026 at 10:45 AM. 334 rankin ave windsor ON Canada."
     />
     <meta name="theme-color" content="#F6EFE4" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -104,7 +104,7 @@
       .garland-top {
         position: relative;
         z-index: 4;
-        height: 108px;
+        height: 1080px;
         overflow: hidden;
         pointer-events: none;
       }
@@ -118,8 +118,8 @@
       .side {
         position: absolute;
         top: 88px;
-        height: 46%;
-        width: 64px;
+        height: 100%;
+        width: 100px;
         z-index: 3;
         overflow: hidden;
         pointer-events: none;
@@ -183,7 +183,7 @@
         position: absolute;
         top: 210px;
         width: 132px;
-        opacity: 0.42;
+        opacity: 0.82;
         mix-blend-mode: multiply;
         pointer-events: none;
         z-index: 1;
@@ -625,7 +625,7 @@
               <div class="datelock-side">2026</div>
             </div>
             <p class="muhurat">Muhurat : 10:45 AM</p>
-            <p class="address">1234 Lotus Grove Lane<br />Frisco, TX 75035</p>
+            <p class="address">334 Rankin ave <br />Windsor, ON N9B 3A7</p>
             <p class="family">The Patel Family</p>
           </div>
           <div class="scene-wrap">
@@ -639,10 +639,10 @@
           <div class="facts">
             <div class="fact"><b>Friday, May 25</b><span>2026</span></div>
             <div class="fact"><b>10:45 AM</b><span>Muhurat</span></div>
-            <div class="fact"><b>1234 Lotus Grove Lane</b><span>Frisco, TX 75035</span></div>
+            <div class="fact"><b>334 Rankin ave </b><span>Windsor, ON N9B 3A7</span></div>
           </div>
           <div class="actions">
-            <a class="btn" href="https://www.google.com/maps/search/?api=1&query=1234%20Lotus%20Grove%20Lane%2C%20Frisco%2C%20TX%2075035" target="_blank" rel="noreferrer">Directions</a>
+            <a class="btn" href="https://www.google.com/maps/search/?api=1&query=1234%20Lotus%20Grove%20Lane%2C%20Windsor%2C%20ON%20N9B 3A7" target="_blank" rel="noreferrer">Directions</a>
             <a class="btn" id="gcal" target="_blank" rel="noreferrer">Google Calendar</a>
             <button class="btn" type="button" id="ics">Save .ics</button>
           </div>
@@ -690,7 +690,7 @@
         "&dates=20260525T154500Z/20260525T174500Z&details=" +
         encodeURIComponent("House blessing ceremony. Muhurat 10:45 AM.") +
         "&location=" +
-        encodeURIComponent("1234 Lotus Grove Lane, Frisco, TX 75035");
+        encodeURIComponent("334 Rankin ave , Windsor, ON N9B 3A7");
 
       document.getElementById("ics").addEventListener("click", function () {
         const ics = [
@@ -704,7 +704,7 @@
           "DTEND:20260525T174500Z",
           "SUMMARY:Griha Pravesh — The Patel Family",
           "DESCRIPTION:House blessing ceremony. Muhurat 10:45 AM.",
-          "LOCATION:1234 Lotus Grove Lane\\, Frisco\\, TX 75035",
+          "LOCATION:334 rankin ave \\, Windsor\\, ON N9B 3A7",
           "END:VEVENT",
           "END:VCALENDAR",
         ].join("\r\n");
@@ -741,7 +741,7 @@
         guests = Math.max(1, guests - 1);
         countEl.textContent = String(guests);
       });
-      document.getElementById("more").addEventListener("click", function () {
+      document.getElementById("more").addEventListener("Aclick", function () {
         guests = Math.min(12, guests + 1);
         countEl.textContent = String(guests);
       });
